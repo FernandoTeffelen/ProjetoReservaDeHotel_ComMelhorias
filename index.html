@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem FODAS</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/styles.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="img/banner.jpg" alt="Logo">
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <a href="controller/login.html" class="btn btn-primary mt-3">Login</a>
+                    <h1>Sinta o conforto acolhedor de nossas hospedagens</h1>
+                    <p>Hospede-se nos nossos hotéis com quartos a partir de R$ 100,00.</p>
+                    <a href="#" class="btn btn-outline-light">Saiba Mais</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/hotel.png" class="hotel">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="sub-title">Porque se hospedar em nossos hotéis?</h2>
+                <div class="col-md-6 feature d-flex align-items-center justify-content-center">
+                    <i class="bi bi-cup me-3"></i>
+                    <div>
+                        <h4>Delicioso café da manhã</h4>
+                        <p>Incluído em todas as diárias</p>
+                    </div>
+                </div>
+                <div class="col-md-6 feature d-flex align-items-center justify-content-center">
+                    <i class="bi bi-geo-alt me-3"></i>
+                    <div>
+                        <h4>Fácil acesso</h4>
+                        <p>Perto dos principais pontos turísticos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms text-center py-5">
+        <div class="container">
+            <h3>Nossos Quartos</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/solteiro.jpg" alt="Suíte Solteiro" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                    <h5>Suíte Solteiro</h5>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/casal.jpg" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                    <h5>Suíte Casal</h5>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/master.jpg" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                    <h5>Suíte Master</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking-form py-5">
+        <div class="container">
+            <h4 class="text-center mb-4">Faça Sua Reserva</h4>
+            <form id="bookingForm">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" name="nome" placeholder="Nome" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" name="email" placeholder="E-mail" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="date" class="form-control" name="dataEntrada" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="date" class="form-control" name="dataSaida" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <textarea class="form-control" name="observacoes" placeholder="Observações" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <input type="number" class="form-control" name="adultos" placeholder="Adultos" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <input type="number" class="form-control" name="criancas" placeholder="Crianças" required>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Hospedagem | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script/script.js"></script> <!-- Referência ao arquivo JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

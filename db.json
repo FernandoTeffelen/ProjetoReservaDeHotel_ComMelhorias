@@ -1,0 +1,52 @@
+{
+  "reservas": [
+    {
+      "id": "814d",
+      "nome": "fernando",
+      "email": "teste@gmail.com",
+      "dataEntrada": "2024-10-15",
+      "dataSaida": "2024-10-20",
+      "observacoes": "teste 1",
+      "adultos": "2",
+      "criancas": "1"
+    },
+    {
+      "id": "de2b",
+      "nome": "Roberto",
+      "email": "Roberto12321@teste.com",
+      "dataEntrada": "2024-10-20",
+      "dataSaida": "2024-10-25",
+      "observacoes": "teste 2",
+      "adultos": "3",
+      "criancas": "2"
+    },
+    {
+      "id": "beb7",
+      "nome": "testandoooo",
+      "email": "aaaaaa@a.com",
+      "dataEntrada": "2024-12-12",
+      "dataSaida": "2024-12-13",
+      "observacoes": "",
+      "adultos": "2",
+      "criancas": "3"
+    },
+    {
+      "id": "d6f8",
+      "nome": "ola",
+      "email": "ola@gmail.com",
+      "dataEntrada": "2024-10-31",
+      "dataSaida": "2024-12-31",
+      "observacoes": "uhul",
+      "adultos": "6",
+      "criancas": "4"
+    }
+  ],
+  "contas": [
+    {
+      "id": "564e",
+      "nome": "fernando",
+      "email": "teste@gmail.com",
+      "senha": "123"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+/* Estilo global */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.sub-title{
+    text-align: center;
+}
+
+
+/* Hero Section */
+.hero {
+    background-color: #343a40;
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: white;
+    color: #343a40;
+}
+
+.hotel{
+    width: 100%;
+    height: 100%;
+}
+
+/* Features Section */
+.features {
+    background-color: #e9ecef;
+    padding: 60px 0;
+}
+
+.features .feature {
+    text-align: center;
+}
+
+.features h4 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.features p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.features i {
+    font-size: 2.3rem;
+    color: #343a40;
+}
+
+/* Rooms Section */
+.rooms {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.rooms h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.rooms img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rooms img:hover {
+    transform: scale(1.05);
+}
+
+.rooms h5 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #343a40;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h4 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.booking-form .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.booking-form textarea {
+    resize: none;
+}
+
+.booking-form .btn {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form .btn:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.rooms .room-image {
+    width: 100%;
+    height: 250px; /* Define a altura para as imagens */
+    object-fit: cover; /* Mantém a proporção sem distorcer */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Datas{
+    margin-top: 2%;
+}
